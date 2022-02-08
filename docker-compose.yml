@@ -31,9 +31,8 @@ services:
 
   www:
     build: php
-    container_name: www_docker_symfony
     ports:
-      - "8741:80"
+      - "8080:80"
     volumes:
       - ./php/vhosts:/etc/apache2/sites-enabled
       - ./:/var/www
