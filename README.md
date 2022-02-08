@@ -1,6 +1,6 @@
-# Docker Symfony 6
+# Docker Symfony 5.4.4
 
-Starter-Kit Symfony 6 par Magle-corp.
+Starter-Kit Symfony 5.4.4 par Magle-corp.
 
 🎼 Symfony 5.4.4  🚀 PHP 7.4   🏗 MySQL  📋 PhpMyAdmin  🐋 Docker
 
@@ -16,8 +16,8 @@ Assurez-vous que les ports suivants sont disponibles :
 ## Installation
 
 ```shell
-git clone git@github.com:Magle-corp/Docker-Symfony-6.git
-cd Docker-Symfony-6
+git clone git@github.com:Magle-corp/Docker-Symfony-5.4.4.git
+cd Docker-Symfony-5.4.4
 cp .env.example .env && cp web/.env.example web/.env
 docker-compose up --build
 ```
